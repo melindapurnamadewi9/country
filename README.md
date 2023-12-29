@@ -140,6 +140,7 @@ plt.ylabel('Nilai')
 plt.legend()
 plt.show()
 ```
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/619ef37a-786a-4c1d-8862-65168b5fd58f)
 
 ```bash
 plt.figure(figsize=(10, 6))
@@ -151,6 +152,7 @@ plt.ylabel('Nilai')
 plt.legend()
 plt.show()
 ```
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/d51ebfec-6747-453b-8daa-d92747a5bfee)
 
 ```bash
 plt.figure(figsize=(10, 6))
@@ -162,6 +164,7 @@ plt.ylabel('Nilai')
 plt.legend()
 plt.show()
 ```
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/b3e11e85-5f60-4dae-bd4f-0824c1d54067)
 
 ```bash
 plt.figure(figsize=(10, 6))
@@ -171,6 +174,7 @@ plt.xlabel('health')
 plt.ylabel('life_expec')
 plt.show()
 ```
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/1362172d-1050-4699-8cbb-52a5ae68e125)
 
 ```bash
 
@@ -185,6 +189,7 @@ plt.pie(quantity, labels=labels, colors=colors,
 plt.axis('equal')
 plt.show()
 ```
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/73fc43bc-16be-4db0-aeb2-49d9157d7856)
 
 ```bash
 from matplotlib import style
@@ -207,6 +212,7 @@ ax.set_xticklabels(("income", "gdpp"))
 
 plt.show()
 ```
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/eaa03842-d3aa-4831-98ce-8911bac38e4a)
 
 ## Modeling
 
@@ -219,6 +225,7 @@ n_clust = 5
 kmean = KMeans(n_clusters=n_clust).fit(X)
 X['Labels'] = kmean.labels_
 ```
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/1f555912-94e5-4afa-a0e1-ec95d9c9d981)
 
 ```bash
 plt.figure(figsize=(10, 8))
@@ -269,6 +276,9 @@ for k in range(2, 10):
     print(f"For n_clusters = {k}, the average silhouette_score is : {silhouette_avg}")
 
 ```
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/fc5a3f5f-a9f7-4444-b0d1-111a7efea874)
+
+
 ## Evaluation
 
 K-means clustering adalah salah satu algoritma klasterisasi yang populer dalam dunia machine learning dan analisis data. 
