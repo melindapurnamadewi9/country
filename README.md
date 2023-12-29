@@ -330,6 +330,8 @@ Stremlit
 https://country-uzq4p2pkgmlvodd9564wzm.streamlit.app/
 Github
 
+![Screenshot (213)](https://github.com/melindapurnamadewi9/country/assets/148632928/e9425a64-4e80-4e85-bc3c-32509c6f6d35)
+
 
 
 
