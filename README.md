@@ -29,15 +29,15 @@ Memungkinkan  CEO LSM tersebut perlu memutuskan bagaimana menggunakan dana terse
  
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
-- Country       : Nama negara (flot)
-- Child_mort    : Kematian anak dibawah usia 5 tahun per 1000 kelahiran hidup (flot)
-- Exports       : Ekspor barang dan jasa per kapita. Diberikan sebagai %usia PDB per kapita (flot)
-- Health        : Total pengeluaran kesehatan per kapita,diberikan sebagai %usia PDB per kapita (flot)
-- Imports       : Impor barang dan jasa per kapita. Diberikan sebagai %usia PDB per kapita (flot)
-- Income        : Pendapatan bersih per orang (intt)
-- Inflation     : Pengukuran tingkat pertumbuhan tahunan Total PDB (flot)
-- Life_expec    : Rata-rata lama hidup seorang anak yang baru lahir jika pola kematian saat ini ingin tetap sama (flot)
-- Total_fer     : Jumlah anak yang akan dilahirkan oleh setiap wanita jika angka kesuburan usia saat ini tetap sama (flot)
+- Country       : Nama negara (float)
+- Child_mort    : Kematian anak dibawah usia 5 tahun per 1000 kelahiran hidup (float)
+- Exports       : Ekspor barang dan jasa per kapita. Diberikan sebagai %usia PDB per kapita (float)
+- Health        : Total pengeluaran kesehatan per kapita,diberikan sebagai %usia PDB per kapita (float)
+- Imports       : Impor barang dan jasa per kapita. Diberikan sebagai %usia PDB per kapita (float)
+- Income        : Pendapatan bersih per orang (int)
+- Inflation     : Pengukuran tingkat pertumbuhan tahunan Total PDB (float)
+- Life_expec    : Rata-rata lama hidup seorang anak yang baru lahir jika pola kematian saat ini ingin tetap sama (float)
+- Total_fer     : Jumlah anak yang akan dilahirkan oleh setiap wanita jika angka kesuburan usia saat ini tetap sama (float)
 - Gdpp          : PDB per kapita. Dihitung sebagai Total PDB dibagi dengan total populasi.(int)
 
 
