@@ -229,7 +229,6 @@ Tujuan utama dari algoritma ini adalah untuk membagi himpunan data menjadi beber
 
 Rumus 
 ![image](https://github.com/melindapurnamadewi9/country/assets/148632928/a55098a8-d21f-4b81-91eb-a14633ff9124)
-dengan:
 ![image](https://github.com/melindapurnamadewi9/country/assets/148632928/bd53d030-be6f-42cb-8a83-59b18ccf0d3c)
 
 
