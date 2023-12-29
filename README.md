@@ -117,7 +117,8 @@ X
 ```bash
 df['gdpp'].sum()
 ````
-Selanjutnya kita masukan eda (minimal 5)
+Selanjutnya kita Masukan EDA (Minimal 5)
+
 ```bash
 plt.figure(figsize=(10, 6))
 sns.histplot(data=X, x=X['exports'], kde=True, color='blue', label='Export')
@@ -128,7 +129,7 @@ plt.ylabel('Frekuensi')
 plt.legend()
 plt.show()
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/23ab887d-0691-4600-8f5c-66d92d5c32ff)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/7ccd7da6-659a-481b-b1e4-a98b521df129)
 
 ```bash
 plt.figure(figsize=(10, 6))
@@ -140,7 +141,7 @@ plt.ylabel('Nilai')
 plt.legend()
 plt.show()
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/619ef37a-786a-4c1d-8862-65168b5fd58f)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/495fd392-6a5f-43b3-add1-1b4bcb100eb8)
 
 ```bash
 plt.figure(figsize=(10, 6))
@@ -152,7 +153,7 @@ plt.ylabel('Nilai')
 plt.legend()
 plt.show()
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/d51ebfec-6747-453b-8daa-d92747a5bfee)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/00ecb84b-118e-4a6d-9af2-ef6bf1213e3d)
 
 ```bash
 plt.figure(figsize=(10, 6))
@@ -164,7 +165,7 @@ plt.ylabel('Nilai')
 plt.legend()
 plt.show()
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/b3e11e85-5f60-4dae-bd4f-0824c1d54067)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/f4f0dda7-9a2b-4bdb-8012-040731f44348)
 
 ```bash
 plt.figure(figsize=(10, 6))
@@ -174,7 +175,7 @@ plt.xlabel('health')
 plt.ylabel('life_expec')
 plt.show()
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/1362172d-1050-4699-8cbb-52a5ae68e125)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/d00b46ac-f5ba-49ed-97ee-906e8a990a9b)
 
 ```bash
 
@@ -189,7 +190,7 @@ plt.pie(quantity, labels=labels, colors=colors,
 plt.axis('equal')
 plt.show()
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/73fc43bc-16be-4db0-aeb2-49d9157d7856)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/64e3a075-a5da-4e4b-90e3-e94c61b864ed)
 
 ```bash
 from matplotlib import style
@@ -212,7 +213,8 @@ ax.set_xticklabels(("income", "gdpp"))
 
 plt.show()
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/eaa03842-d3aa-4831-98ce-8911bac38e4a)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/7569f09a-5517-4dad-b0c7-705dfdc8f7e6)
+
 
 ## Modeling
 
