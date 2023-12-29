@@ -18,8 +18,7 @@ Ketidakmungkinan seseorang membantu negara -negara yang memerlukan bantuan benca
 
 ### Goals
 
-- Anda dapat memberi saran kepada CEO untuk mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan.
-- Anda  dapat  mengkategorikan negara menggunakan beberapa faktor sosial-ekonomi dan kesehatan yang menentukan perkembangan negara secara keseluruhan. 
+- Anda dapat memberi saran kepada CEO untuk mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dengan mengkategorikan negara menggunakan beberapa faktor sosial-ekonomi dan kesehatan yang menentukan perkembangan negara secara keseluruhan. 
 - Anda dapat mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dan dapat menyarankan negara-negara mana yang paling perlu menjadi fokus CEO.
 
 ## Data Understanding
