@@ -29,7 +29,9 @@ Ketidakmungkinan seseorang membantu negara -negara yang memerlukan bantuan benca
 ## Data Understanding
 
 Dataset yang saya gunakan berasal dari kaggle dengan judul:
+
 [Unsupervised Learning on Country Data]
+
 https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data/data
 
 
