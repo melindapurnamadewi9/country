@@ -227,7 +227,6 @@ n_clust = 5
 kmean = KMeans(n_clusters=n_clust).fit(X)
 X['Labels'] = kmean.labels_
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/1f555912-94e5-4afa-a0e1-ec95d9c9d981)
 
 ```bash
 plt.figure(figsize=(10, 8))
@@ -252,6 +251,7 @@ plt.ylabel('Score')
 
 plt.show()
 ```
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/cdb6f2ba-b008-4aa0-b838-6865e7262faa)
 
 ```bash
 silhouette_scores = []
@@ -268,7 +268,9 @@ plt.title('Silhouette Scores for Different Numbers of Clusters')
 plt.xlabel('Number of Clusters')
 plt.ylabel('Silhouette Score')
 plt.show()
-```
+
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/51ddec3a-9cc4-4d95-9b68-e635c8556b2a)
+
 
 ```bash
 for k in range(2, 10):
@@ -278,8 +280,6 @@ for k in range(2, 10):
     print(f"For n_clusters = {k}, the average silhouette_score is : {silhouette_avg}")
 
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/fc5a3f5f-a9f7-4444-b0d1-111a7efea874)
-
 
 ## Evaluation
 
