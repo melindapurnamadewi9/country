@@ -22,13 +22,13 @@ Memungkinkan  CEO LSM tersebut perlu memutuskan bagaimana menggunakan dana terse
 - Anda  dapat  mengkategorikan negara menggunakan beberapa faktor sosial-ekonomi dan kesehatan yang menentukan perkembangan negara secara keseluruhan. 
 - Kemudian CEO harus mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dan anda  menyarankan negara-negara mana yang paling perlu menjadi fokus CEO.
 
-
 ## Data Understanding
 
+Dataset yang saya gunakan berasal dari kaggle 
 [Unsupervised Learning on Country Data] https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data/data
- 
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
+
 - Country       : Nama negara (float)
 - Child_mort    : Kematian anak dibawah usia 5 tahun per 1000 kelahiran hidup (float)
 - Exports       : Ekspor barang dan jasa per kapita. Diberikan sebagai %usia PDB per kapita (float)
@@ -39,7 +39,6 @@ Memungkinkan  CEO LSM tersebut perlu memutuskan bagaimana menggunakan dana terse
 - Life_expec    : Rata-rata lama hidup seorang anak yang baru lahir jika pola kematian saat ini ingin tetap sama (float)
 - Total_fer     : Jumlah anak yang akan dilahirkan oleh setiap wanita jika angka kesuburan usia saat ini tetap sama (float)
 - Gdpp          : PDB per kapita. Dihitung sebagai Total PDB dibagi dengan total populasi.(int)
-
 
 ## Data Preparation
 ## Data Collection
@@ -91,16 +90,18 @@ Lanjut dengan memasukkan file csv yang telah diextract pada sebuah variable
 ```bash
 df = pd.read_csv('Country-data.csv')
 ```
-Memanggil data yang sudah diubah 
+Memanggil data 
 ```bash
 df.head()
 ```
 ```bash
 df['country'].value_counts().sum()
 ```
+Selanjutnya kita menghapus kolom dar dataframe 
 ```bash
 df = df.drop(['country'], axis=1)
 ```
+Menyimpan dataframe kedalam csv 
 ```bash
 df.to_csv('Country.csv', index=False)
 ```
@@ -109,6 +110,7 @@ Untuk melihat mengenai type data dari masing masing kolom kita bisa menggunakan 
 df.info()
 ```
 ```bash
+Selanjutnya kita mencetak atau menampilkan nilai dari variabel x 
 X = df
 ```
 ```bash
