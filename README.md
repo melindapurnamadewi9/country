@@ -342,6 +342,13 @@ for k in range(2, 10):
 
 ## Deployment
 pada bagian ini anda memberikan link project yang diupload melalui streamlit share. boleh ditambahkan screen shoot halaman webnya.
+Github   : https://github.com/melindapurnamadewi9/country/tree/main
+Stremlit : https://country-uzq4p2pkgmlvodd9564wzm.streamlit.app/
+
+![Screenshot (218)](https://github.com/melindapurnamadewi9/country/assets/148632928/8b87b2b2-af28-4a76-97a4-eac8047c98f5)
+![Screenshot (219)](https://github.com/melindapurnamadewi9/country/assets/148632928/07da377a-bec4-432f-80fc-0e74c616d602)
+
+
 
 
 
