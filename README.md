@@ -331,30 +331,23 @@ for k in range(2, 10):
     plt.show()
 ```
 
-
-
-
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/0d465acd-af58-405b-8ff5-0d065aa7cb9b)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/9799bb82-a743-4210-b095-c539dcca525d)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/4d97a180-6efb-46fd-aca0-07db375913e4)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/e1c41efe-c416-4c3d-8e82-91794fd7febf)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/e69e4782-8d2a-4f72-9d6c-9e4c1928051e)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/c04002b7-5b0f-456b-aded-cb8b2de15d08)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/26171735-7a13-4ebb-acc7-9c86c33a0026)
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/edf35619-2bc2-4fef-b3ca-cedd68ba485e)
 
 ## Deployment
-Stremlit 
-https://country-uzq4p2pkgmlvodd9564wzm.streamlit.app/
-Github
+pada bagian ini anda memberikan link project yang diupload melalui streamlit share. boleh ditambahkan screen shoot halaman webnya.
 
-![Screenshot (213)](https://github.com/melindapurnamadewi9/country/assets/148632928/e9425a64-4e80-4e85-bc3c-32509c6f6d35)
 
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/28778246-5c81-4e99-83eb-f1e91c01aa46)
 
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/945a4aa8-5418-4560-9ce9-c43d00025476)
 
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/37c99999-a516-43c3-b88c-754d17fcfc4c)
 
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/3756bdba-fcac-4264-b03a-af78a6f276c2)
 
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/478c6c59-41f9-43a6-b093-360371ff3a5b)
-
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/b4bb37af-76ca-4893-9bd0-3de67237c526)
-
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/0e6c634a-4a64-443a-b8cd-d59e87676e85)
 
 
 
