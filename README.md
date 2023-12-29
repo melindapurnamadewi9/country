@@ -128,8 +128,7 @@ plt.ylabel('Frekuensi')
 plt.legend()
 plt.show()
 ```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/ac55faab-5bcc-4a3d-a910-b956767fd0c4)
-
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/23ab887d-0691-4600-8f5c-66d92d5c32ff)
 
 ```bash
 plt.figure(figsize=(10, 6))
