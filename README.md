@@ -268,9 +268,8 @@ plt.title('Silhouette Scores for Different Numbers of Clusters')
 plt.xlabel('Number of Clusters')
 plt.ylabel('Silhouette Score')
 plt.show()
-
+```
 ![image](https://github.com/melindapurnamadewi9/country/assets/148632928/51ddec3a-9cc4-4d95-9b68-e635c8556b2a)
-
 
 ```bash
 for k in range(2, 10):
@@ -278,7 +277,6 @@ for k in range(2, 10):
     labels = kmeans.fit_predict(X)
     silhouette_avg = silhouette_score(X, labels)
     print(f"For n_clusters = {k}, the average silhouette_score is : {silhouette_avg}")
-
 ```
 
 ## Evaluation
