@@ -5,22 +5,20 @@
 
 ## Domain Proyek
 
-Unsupervised Learning on Country Data, projek ini dapat digunakan untuk mengkategorikan negara-negara menggunakan faktor sosial-ekonomi dan kesehatan yang menentukan pembangunan negara. secara keseluruhan.
+Unsupervised Learning on Country Data, projek ini dapat digunakan untuk untuk mengkategorikan negara-negara, yang dapat dilihat dari aspek sosial ekonomi dan kesehatan yang dapat menentukan pembangunan sebuah negara secara keseluruhan.
 
 ## Business Understanding
 
-HELP International merupakan LSM kemanusiaan internasional yang berkomitmen untuk memerangi kemiskinan dan menyediakan fasilitas dan bantuan dasar bagi masyarakat di negara-negara terbelakang pada saat terjadi bencana dan bencana alam.
-
+Ketidakmungkinan seseorang membantu negara -negara yang memerlukan bantuan bencana alam,dengan adanya HELP International merupakan LSM kemanusiaan internasional yang berkomitmen untuk memerangi kemiskinan dan menyediakan fasilitas dan bantuan dasar bagi masyarakat di negara-negara terbelakang pada saat terjadi bencana dan bencana alam.
 
 ### Problem Statements
 
 - HELP International merupakan sebuah organisasi LSM kemanusiaan internasional yang  telah mampu mengumpulkan sekitar $10 juta.
--  CEO LSM tersebut perlu memutuskan bagaimana menggunakan dana tersebut secara strategis dan efektif.
--  Selanjutnya  CEO harus mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan. 
-
+- CEO LSM tersebut perlu memutuskan bagaimana menggunakan dana tersebut secara strategis dan efektif.
 
 ### Goals
 
+- Anda dapat memberi saran kepada CEO untuk mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan.
 - Anda  dapat  mengkategorikan negara menggunakan beberapa faktor sosial-ekonomi dan kesehatan yang menentukan perkembangan negara secara keseluruhan. 
 - Anda dapat mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dan dapat menyarankan negara-negara mana yang paling perlu menjadi fokus CEO.
 
@@ -120,8 +118,10 @@ X = df
 X
 ```
 ```bash
+Mengembalikan jumlah semua nilai di kolom 'gdpp' pada DataFrame 
 df['gdpp'].sum()
 ````
+
 Selanjutnya kita Masukan EDA (Minimal 5)
 
 ```bash
