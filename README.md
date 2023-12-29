@@ -222,9 +222,16 @@ plt.show()
 
 ## Modeling
 
-Model k-means adalah algoritma dalam machine learning yang digunakan untuk melakukan klasterisasi atau pengelompokan data.
+Model k-means
+adalah algoritma dalam machine learning yang digunakan untuk melakukan klasterisasi atau pengelompokan data.
 
 Tujuan utama dari algoritma ini adalah untuk membagi himpunan data menjadi beberapa kelompok, yang disebut klaster, sehingga objek-objek dalam satu klaster memiliki kesamaan yang tinggi, sedangkan objek-objek antar klaster memiliki kesamaan yang rendah
+
+Rumus 
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/a55098a8-d21f-4b81-91eb-a14633ff9124)
+dengan:
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/bd53d030-be6f-42cb-8a83-59b18ccf0d3c)
+
 
 ```bash 
 n_clust = 5
@@ -342,6 +349,7 @@ for k in range(2, 10):
 ## Deployment
 pada bagian ini anda memberikan link project yang diupload melalui streamlit share. boleh ditambahkan screen shoot halaman webnya.
 Github   : https://github.com/melindapurnamadewi9/country/tree/main
+
 Stremlit : https://country-uzq4p2pkgmlvodd9564wzm.streamlit.app/
 
 ![Screenshot (218)](https://github.com/melindapurnamadewi9/country/assets/148632928/8b87b2b2-af28-4a76-97a4-eac8047c98f5)
