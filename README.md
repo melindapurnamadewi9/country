@@ -5,27 +5,30 @@
 
 ## Domain Proyek
 
-Unsupervised Learning on Country Data, projek ini dapat digunakan untuk mengkategorikan negara-negara menggunakan faktor sosial-ekonomi dan kesehatan yang menentukan pembangunan negara secara keseluruhan.
+Unsupervised Learning on Country Data, projek ini dapat digunakan untuk mengkategorikan negara-negara menggunakan faktor sosial-ekonomi dan kesehatan yang menentukan pembangunan negara. secara keseluruhan.
 
 ## Business Understanding
 
-Dapat berkomitmen untuk memerangi kemiskinan dan menyediakan fasilitas dan bantuan dasar bagi masyarakat di negara-negara terbelakang pada saat terjadi bencana dan bencana alam.
+HELP International merupakan LSM kemanusiaan internasional yang berkomitmen untuk memerangi kemiskinan dan menyediakan fasilitas dan bantuan dasar bagi masyarakat di negara-negara terbelakang pada saat terjadi bencana dan bencana alam.
 
 
 ### Problem Statements
 
-Memungkinkan  CEO LSM tersebut perlu memutuskan bagaimana menggunakan dana tersebut secara strategis dan efektif. 
+- HELP International merupakan sebuah organisasi LSM kemanusiaan internasional yang  telah mampu mengumpulkan sekitar $10 juta.
+-  CEO LSM tersebut perlu memutuskan bagaimana menggunakan dana tersebut secara strategis dan efektif.
+-  Selanjutnya  CEO harus mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan. 
 
 
 ### Goals
 
 - Anda  dapat  mengkategorikan negara menggunakan beberapa faktor sosial-ekonomi dan kesehatan yang menentukan perkembangan negara secara keseluruhan. 
-- Kemudian CEO harus mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dan anda  menyarankan negara-negara mana yang paling perlu menjadi fokus CEO.
+- Anda dapat mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dan dapat menyarankan negara-negara mana yang paling perlu menjadi fokus CEO.
 
 ## Data Understanding
 
-Dataset yang saya gunakan berasal dari kaggle 
-[Unsupervised Learning on Country Data] https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data/data
+Dataset yang saya gunakan berasal dari kaggle dengan judul:
+[Unsupervised Learning on Country Data]
+https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data/data
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
 
@@ -43,7 +46,7 @@ Dataset yang saya gunakan berasal dari kaggle
 ## Data Preparation
 ## Data Collection
 
-Untuk data colletion ini, saya mendapatkan dataset yang nanti dapat digunakan dari website kaggle dengan nama DUnsupervised Learning on Country Data, jika anda tertarik dengan dataset tesebut bisa klik diatas.
+Untuk data colletion ini, saya mendapatkan dataset yang nanti dapat digunakan dari website kaggle dengan nama Unsupervised Learning on Country Data, jika anda tertarik dengan dataset tesebut bisa klik diatas.
 
 ## Data Discovery and Profiling
 
@@ -285,11 +288,13 @@ for k in range(2, 10):
 ## Evaluation
 
 K-means clustering adalah salah satu algoritma klasterisasi yang populer dalam dunia machine learning dan analisis data. 
-Tujuannya adalah membagi himpunan data menjadi beberapa kelompok atau klaster berdasarkan kesamaan antar data. 
-Algoritma ini sangat sederhana namun efektif
+Tujuannya adalah membagi himpunan data menjadi beberapa kelompok atau klaster berdasarkan kesamaan antar data, algoritma ini sangat sederhana namun efektif.
 
-
+```bash
 kmeans = KMeans(n_clusters=k, n_init=10)  # Set the value of n_init explicitly
+```
+
+```bash
 
 from sklearn.datasets import make_blobs
 from sklearn.metrics import silhouette_samples, silhouette_score
@@ -324,6 +329,11 @@ for k in range(2, 10):
     plt.axvline(x=silhouette_avg, color="red", linestyle="--")
     plt.yticks([])
     plt.show()
+```
+
+
+
+
 
 ## Deployment
 Stremlit 
@@ -331,6 +341,29 @@ https://country-uzq4p2pkgmlvodd9564wzm.streamlit.app/
 Github
 
 ![Screenshot (213)](https://github.com/melindapurnamadewi9/country/assets/148632928/e9425a64-4e80-4e85-bc3c-32509c6f6d35)
+
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/28778246-5c81-4e99-83eb-f1e91c01aa46)
+
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/945a4aa8-5418-4560-9ce9-c43d00025476)
+
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/37c99999-a516-43c3-b88c-754d17fcfc4c)
+
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/3756bdba-fcac-4264-b03a-af78a6f276c2)
+
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/478c6c59-41f9-43a6-b093-360371ff3a5b)
+
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/b4bb37af-76ca-4893-9bd0-3de67237c526)
+
+![image](https://github.com/melindapurnamadewi9/country/assets/148632928/0e6c634a-4a64-443a-b8cd-d59e87676e85)
+
+
+
+
+
+
+
+
+
 
 
 
