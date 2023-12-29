@@ -139,6 +139,7 @@ plt.ylabel('Nilai')
 plt.legend()
 plt.show()
 ```
+
 ```bash
 plt.figure(figsize=(10, 6))
 plt.plot(X['imports'], label='imports', marker='o', linestyle='-')
@@ -149,6 +150,7 @@ plt.ylabel('Nilai')
 plt.legend()
 plt.show()
 ```
+
 ```bash
 plt.figure(figsize=(10, 6))
 plt.plot(X['income'], label='income', marker='o', linestyle='-')
@@ -159,6 +161,7 @@ plt.ylabel('Nilai')
 plt.legend()
 plt.show()
 ```
+
 ```bash
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=X, x=X['health'], y=X['life_expec'], s=100, color='green', alpha=0.8)
@@ -166,6 +169,9 @@ plt.title('Scatter Plot: health dan life_expec')
 plt.xlabel('health')
 plt.ylabel('life_expec')
 plt.show()
+```
+
+```bash
 
 labels = ['exports', 'imports']
 quantity = [6965, 7830]
@@ -177,6 +183,7 @@ plt.pie(quantity, labels=labels, colors=colors,
 
 plt.axis('equal')
 plt.show()
+```
 
 ```bash
 from matplotlib import style
@@ -206,11 +213,13 @@ Model k-means adalah algoritma dalam machine learning yang digunakan untuk melak
 
 Tujuan utama dari algoritma ini adalah untuk membagi himpunan data menjadi beberapa kelompok, yang disebut klaster, sehingga objek-objek dalam satu klaster memiliki kesamaan yang tinggi, sedangkan objek-objek antar klaster memiliki kesamaan yang rendah
 
+```bash 
 n_clust = 5
 kmean = KMeans(n_clusters=n_clust).fit(X)
 X['Labels'] = kmean.labels_
+```
 
-
+```bash
 plt.figure(figsize=(10, 8))
 scatterplot = sns.scatterplot(x='income', y='gdpp', hue='Labels', size='Labels', data=X, palette='hls', markers=True)
 scatterplot.legend(title='Clusters', loc='upper right', bbox_to_anchor=(1.2, 1))
@@ -232,8 +241,9 @@ plt.xlabel('Income')
 plt.ylabel('Score')
 
 plt.show()
+```
 
-
+```bash
 silhouette_scores = []
 
 for num_clusters in range(2, 10):
@@ -248,15 +258,16 @@ plt.title('Silhouette Scores for Different Numbers of Clusters')
 plt.xlabel('Number of Clusters')
 plt.ylabel('Silhouette Score')
 plt.show()
+```
 
-
+```bash
 for k in range(2, 10):
     kmeans = KMeans(n_clusters=k)
     labels = kmeans.fit_predict(X)
     silhouette_avg = silhouette_score(X, labels)
     print(f"For n_clusters = {k}, the average silhouette_score is : {silhouette_avg}")
 
-
+```
 ## Evaluation
 
 K-means clustering adalah salah satu algoritma klasterisasi yang populer dalam dunia machine learning dan analisis data. 
