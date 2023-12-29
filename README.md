@@ -3,29 +3,35 @@
 ### Nim   : 211351082
 ### Kelas : Pagi B
 
+
 ## Domain Proyek
 
 Unsupervised Learning on Country Data, projek ini dapat digunakan untuk untuk mengkategorikan negara-negara, yang dapat dilihat dari aspek sosial ekonomi dan kesehatan yang dapat menentukan pembangunan sebuah negara secara keseluruhan.
 
+
 ## Business Understanding
 
 Ketidakmungkinan seseorang membantu negara -negara yang memerlukan bantuan bencana alam,dengan adanya HELP International merupakan LSM kemanusiaan internasional yang berkomitmen untuk memerangi kemiskinan dan menyediakan fasilitas dan bantuan dasar bagi masyarakat di negara-negara terbelakang pada saat terjadi bencana dan bencana alam.
+
 
 ### Problem Statements
 
 - HELP International merupakan sebuah organisasi LSM kemanusiaan internasional yang  telah mampu mengumpulkan sekitar $10 juta.
 - CEO LSM tersebut perlu memutuskan bagaimana menggunakan dana tersebut secara strategis dan efektif.
 
+
 ### Goals
 
 - Anda dapat memberi saran kepada CEO untuk mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dengan mengkategorikan negara menggunakan beberapa faktor sosial-ekonomi dan kesehatan yang menentukan perkembangan negara secara keseluruhan. 
 - Anda dapat mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dan dapat menyarankan negara-negara mana yang paling perlu menjadi fokus CEO.
+
 
 ## Data Understanding
 
 Dataset yang saya gunakan berasal dari kaggle dengan judul:
 [Unsupervised Learning on Country Data]
 https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data/data
+
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
 
@@ -40,6 +46,7 @@ https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data/
 - Total_fer     : Jumlah anak yang akan dilahirkan oleh setiap wanita jika angka kesuburan usia saat ini tetap sama (float)
 - Gdpp          : PDB per kapita. Dihitung sebagai Total PDB dibagi dengan total populasi.(int)
 
+
 ## Data Preparation
 ## Data Collection
 
@@ -50,7 +57,8 @@ Untuk data colletion ini, saya mendapatkan dataset yang nanti dapat digunakan da
 Untuk bagian ini saya menggunakan Teknik EDA
 
 Tentukan library yang digunakan, disini saya menggunakan google collab .
-## Import Library
+Import Library
+
 ```bash
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -229,6 +237,7 @@ Tujuan utama dari algoritma ini adalah untuk membagi himpunan data menjadi beber
 
 Rumus 
 ![image](https://github.com/melindapurnamadewi9/country/assets/148632928/a55098a8-d21f-4b81-91eb-a14633ff9124)
+
 ![image](https://github.com/melindapurnamadewi9/country/assets/148632928/bd53d030-be6f-42cb-8a83-59b18ccf0d3c)
 
 
