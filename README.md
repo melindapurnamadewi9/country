@@ -27,7 +27,7 @@ Ketidakmungkinan seseorang membantu negara -negara yang memerlukan bantuan benca
 
 ## Solution statements
 
-- Pengembangan platfrom Unsupervised Learning on Country Data yaitu memberikan landasan untuk memanfaatkan teknik pembelajaran tanpa pengawasan pada data negara, menawarkan wawasan dan memfasilitasi pengambilan keputusan yang tepat di berbagai bidang. Data yang berasal dari Kaggle.com yang memberikan pengguna dapat mengakses dengan cepat dan mudah.
+- Pengembangan platfrom Unsupervised Learning on Country Data yaitu memberikan landasan untuk memanfaatkan teknik pembelajaran tanpa pengawasan pada data negara, menawarkan wawasan dan memfasilitasi pengambilan keputusan yang tepat di berbagai bidang. Data yang berasal dari kaggle.com yang memberikan pengguna dapat mengakses dengan cepat dan mudah.
 - Model yang dihasilkan dari dataset ini menggunakan metode K-means 
 
 
