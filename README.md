@@ -81,6 +81,7 @@ Lalu mengupload token kaggle agar nanti kita dapat  mendownload sebuah datasets 
 file.upload()
 ```
 Setelah mengupload filenya, maka kita selanjutnya dengan membuat sebuah folder untuk menyimpan file kaggle.json yang sudah diupload tadi
+
 ```bash
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
