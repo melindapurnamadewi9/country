@@ -73,12 +73,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 ```
-Karena kita menggunakan google collab untuk itu kita mengerjakannya, maka kita akan import files juga.
+Karena kita menggunakan google collab untuk itu kita menjalankanya, maka kita akan import files.
 
 ```bash
 from google.colab import files.
 ```
-Lalu mengupload token kaggle agar nanti kita dapat  mendownload sebuah datasets dari kaggle melalui google collab.
+Lalu mengupload token kaggle agar nanti kita dapat setelah mendownload sebuah datasets dari kaggle melalui google collab.
 
 ```bash
 file.upload()
@@ -102,11 +102,13 @@ Selanjutnya kita harus extract file yang tadi telah didownload.
 !mkdir rohan0301
 !unzip unsupervised-learning-on-country-data.zip
 ```
+
 Lanjut dengan memasukkan file csv yang telah diextract pada sebuah variable.
 
 ```bash
 df = pd.read_csv('Country-data.csv')
 ```
+
 Untuk melihat mengenai type data dari masing masing kolom kita bisa menggunakan property info.
 
 ```bash
