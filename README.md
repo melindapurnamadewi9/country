@@ -11,7 +11,7 @@ Unsupervised Learning on Country Data, projek ini dapat digunakan untuk untuk me
 
 ## Business Understanding
 
-Ketidakmungkinan seseorang membantu negara -negara yang memerlukan bantuan bencana alam,dengan adanya HELP International merupakan LSM kemanusiaan internasional yang berkomitmen untuk memerangi kemiskinan dan menyediakan fasilitas dan bantuan dasar bagi masyarakat di negara-negara terbelakang pada saat terjadi bencana dan bencana alam.
+Ketidakmungkinan seseorang membantu negara -negara yang memerlukan bantuan bencana, dengan adanya HELP International merupakan LSM kemanusiaan internasional yang berkomitmen untuk memerangi kemiskinan dan menyediakan fasilitas dan bantuan dasar bagi masyarakat di negara-negara terbelakang pada saat terjadi bencana dan bencana alam.
 
 
 ### Problem Statements
