@@ -63,7 +63,8 @@ Untuk data colletion ini, saya mendapatkan dataset ini dari website kaggle denga
 
 Untuk bagian ini saya menggunakan Teknik EDA
 
-Tentukan library yang digunakan, disini saya menggunakan google collab .
+Tentukan library yang digunakan, disini saya menggunakan google collab.
+
 Import Library
 
 ```bash
@@ -72,17 +73,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 ```
-Karena kita menggunakan google collab untuk itu kita mengerjakannya, maka kita akan import files juga 
+Karena kita menggunakan google collab untuk itu kita mengerjakannya, maka kita akan import files juga.
 
 ```bash
-from google.colab import files
+from google.colab import files.
 ```
-Lalu mengupload token kaggle agar nanti kita dapat  mendownload sebuah datasets dari kaggle melalui google collab
+Lalu mengupload token kaggle agar nanti kita dapat  mendownload sebuah datasets dari kaggle melalui google collab.
 
 ```bash
 file.upload()
 ```
-Setelah mengupload filenya, maka akan lanjut dengan membuat sebuah folder untuk menyimpan file kaggle.json yang sudah diupload tadi
+Setelah mengupload filenya, maka akan lanjut dengan membuat sebuah folder untuk menyimpan file kaggle.json yang sudah diupload tadi.
 
 ```bash
 !mkdir -p ~/.kaggle
@@ -90,23 +91,23 @@ Setelah mengupload filenya, maka akan lanjut dengan membuat sebuah folder untuk 
 !chmod 600 ~/.kaggle/kaggle.json
 !ls ~/.kaggle
 ```
-Lalu mari kita download datasets nya
+Lalu mari kita download datasets nya.
 
 ```bash
 !kaggle datasets download -d rohan0301/unsupervised-learning-on-country-data --force
 ```
-Selanjutnya kita harus extract file yang tadi telah didownload
+Selanjutnya kita harus extract file yang tadi telah didownload.
 
 ```bash
 !mkdir rohan0301
 !unzip unsupervised-learning-on-country-data.zip
 ```
-Lanjut dengan memasukkan file csv yang telah diextract pada sebuah variable
+Lanjut dengan memasukkan file csv yang telah diextract pada sebuah variable.
 
 ```bash
 df = pd.read_csv('Country-data.csv')
 ```
-Untuk melihat mengenai type data dari masing masing kolom kita bisa menggunakan property info
+Untuk melihat mengenai type data dari masing masing kolom kita bisa menggunakan property info.
 
 ```bash
 df.info()
@@ -281,10 +282,6 @@ for k in range(2, 10):
 ```
 
 ## Evaluation
-
-K-means clustering adalah salah satu algoritma klasterisasi yang populer dalam dunia machine learning dan analisis data. 
-
-Tujuannya adalah membagi himpunan data menjadi beberapa kelompok atau klaster berdasarkan kesamaan antar data, algoritma ini sangat sederhana namun efektif.
 
 Didalam evaluasi ini ada 8 cluster, dari cluster yang terkecil dengan score siluet 0.33 dan yang terbesar score siluet 0.79. 
 Cluster yang optimal ada di cluster 3 dengan score siluet 0.79
