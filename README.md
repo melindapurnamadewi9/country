@@ -25,7 +25,7 @@ Ketidakmungkinan seseorang membantu negara -negara yang memerlukan bantuan benca
 - Anda dapat memberi saran kepada CEO untuk mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dengan mengkategorikan negara menggunakan beberapa faktor sosial-ekonomi dan kesehatan yang menentukan perkembangan negara secara keseluruhan. 
 - Anda dapat mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dan dapat menyarankan negara-negara mana yang paling perlu menjadi fokus CEO.
 
-##Solution statements
+## Solution statements
 
 - Pengembangan platfrom Unsupervised Learning on Country Data yaitu memberikan landasan untuk memanfaatkan teknik pembelajaran tanpa pengawasan pada data negara, menawarkan wawasan dan memfasilitasi pengambilan keputusan yang tepat di berbagai bidang, yang berasal dari Kaggle.com.
 - Model yang dihasilkan dari dataset ini menggunakan metode K-means 
