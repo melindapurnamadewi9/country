@@ -79,11 +79,10 @@ from google.colab import files
 ```
 Lalu mengupload token kaggle agar nanti kita dapat  mendownload sebuah datasets dari kaggle melalui google collab
 
-Lalu mengupload token kaggle agar nanti bisa mendownload sebuah datasets dari kaggle melalui google colab
-
 ```bash
 file.upload()
 ```
+Setelah mengupload filenya, maka akan lanjut dengan membuat sebuah folder untuk menyimpan file kaggle.json yang sudah diupload tadi
 
 ```bash
 !mkdir -p ~/.kaggle
@@ -92,23 +91,28 @@ file.upload()
 !ls ~/.kaggle
 ```
 Lalu mari kita download datasets nya
+
 ```bash
 !kaggle datasets download -d rohan0301/unsupervised-learning-on-country-data --force
 ```
 Selanjutnya kita harus extract file yang tadi telah didownload
+
 ```bash
 !mkdir rohan0301
 !unzip unsupervised-learning-on-country-data.zip
 ```
 Lanjut dengan memasukkan file csv yang telah diextract pada sebuah variable
+
 ```bash
 df = pd.read_csv('Country-data.csv')
 ```
 Untuk melihat mengenai type data dari masing masing kolom kita bisa menggunakan property info
+
 ```bash
 df.info()
 ```
 Selanjutnya kita masukan EDA (Minimal 5)
+
 ```bash
 plt.figure(figsize=(10, 6))
 sns.histplot(data=X, x=X['exports'], kde=True, color='blue', label='Export')
