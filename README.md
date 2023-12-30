@@ -73,14 +73,17 @@ import seaborn as sns
 import numpy as np
 ```
 Karena kita menggunakan google collab untuk itu kita mengerjakannya, maka kita akan import files juga 
+
 ```bash
 from google.colab import files
 ```
 Lalu mengupload token kaggle agar nanti kita dapat  mendownload sebuah datasets dari kaggle melalui google collab
-``bash
+
+Lalu mengupload token kaggle agar nanti bisa mendownload sebuah datasets dari kaggle melalui google colab
+
+```bash
 file.upload()
 ```
-Setelah mengupload filenya, maka kita selanjutnya dengan membuat sebuah folder untuk menyimpan file kaggle.json yang sudah diupload tadi
 
 ```bash
 !mkdir -p ~/.kaggle
