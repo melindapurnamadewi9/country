@@ -339,7 +339,7 @@ for k in range(2, 10):
 ![image](https://github.com/melindapurnamadewi9/country/assets/148632928/edf35619-2bc2-4fef-b3ca-cedd68ba485e)
 
 ## Deployment
-pada bagian ini anda memberikan link project yang diupload melalui streamlit share. boleh ditambahkan screen shoot halaman webnya.
+Pada bagian ini anda memberikan link project yang diupload melalui streamlit share. boleh ditambahkan screen shoot halaman webnya.
 
 Github   : https://github.com/melindapurnamadewi9/country/tree/main
 
