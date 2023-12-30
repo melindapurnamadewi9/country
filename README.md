@@ -25,10 +25,15 @@ Ketidakmungkinan seseorang membantu negara -negara yang memerlukan bantuan benca
 - Anda dapat memberi saran kepada CEO untuk mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dengan mengkategorikan negara menggunakan beberapa faktor sosial-ekonomi dan kesehatan yang menentukan perkembangan negara secara keseluruhan. 
 - Anda dapat mengambil keputusan untuk memilih negara yang paling membutuhkan bantuan dan dapat menyarankan negara-negara mana yang paling perlu menjadi fokus CEO.
 
+##Solution statements
+
+- Pengembangan platfrom Unsupervised Learning on Country Data yaitu memberikan landasan untuk memanfaatkan teknik pembelajaran tanpa pengawasan pada data negara, menawarkan wawasan dan memfasilitasi pengambilan keputusan yang tepat di berbagai bidang, yang berasal dari Kaggle.com.
+- Model yang dihasilkan dari dataset ini menggunakan metode K-means 
+
 
 ## Data Understanding
 
-Dataset yang saya gunakan berasal dari kaggle dengan judul:
+Dataset yang saya gunakan berasal dari kaggle, yang berisi 167 baris dan 10 kolom.
 
 [Unsupervised Learning on Country Data]
 
@@ -52,7 +57,7 @@ https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data/
 ## Data Preparation
 ## Data Collection
 
-Untuk data colletion ini, saya mendapatkan dataset yang nanti dapat digunakan dari website kaggle dengan nama Unsupervised Learning on Country Data, jika anda tertarik dengan dataset tesebut bisa klik diatas.
+Untuk data colletion ini, saya mendapatkan dataset ini dari website kaggle dengan nama Unsupervised Learning on Country Data, jika anda tertarik dengan dataset tesebut bisa klik diatas.
 
 ## Data Discovery and Profiling
 
@@ -66,9 +71,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
-from sklearn.preprocessing import StandardScaler
 ```
 Karena kita menggunakan google collab untuk itu kita mengerjakannya, maka kita akan import files juga 
 ```bash
@@ -94,45 +96,15 @@ Selanjutnya kita harus extract file yang tadi telah didownload
 !mkdir rohan0301
 !unzip unsupervised-learning-on-country-data.zip
 ```
-# Data Discovery
-
 Lanjut dengan memasukkan file csv yang telah diextract pada sebuah variable
 ```bash
 df = pd.read_csv('Country-data.csv')
-```
-Memanggil data 
-```bash
-df.head()
-```
-```bash
-df['country'].value_counts().sum()
-```
-Selanjutnya kita menghapus kolom dar dataframe 
-```bash
-df = df.drop(['country'], axis=1)
-```
-Menyimpan dataframe kedalam csv 
-```bash
-df.to_csv('Country.csv', index=False)
 ```
 Untuk melihat mengenai type data dari masing masing kolom kita bisa menggunakan property info
 ```bash
 df.info()
 ```
-```bash
-Selanjutnya kita mencetak atau menampilkan nilai dari variabel x 
-X = df
-```
-```bash
-X
-```
-```bash
-Mengembalikan jumlah semua nilai di kolom 'gdpp' pada DataFrame 
-df['gdpp'].sum()
-````
-
-Selanjutnya kita Masukan EDA (Minimal 5)
-
+Selanjutnya kita masukan EDA (Minimal 5)
 ```bash
 plt.figure(figsize=(10, 6))
 sns.histplot(data=X, x=X['exports'], kde=True, color='blue', label='Export')
@@ -232,8 +204,7 @@ plt.show()
 
 ## Modeling
 
-Model k-means
-adalah algoritma dalam machine learning yang digunakan untuk melakukan klasterisasi atau pengelompokan data.
+K-means adalah algoritma dalam machine learning yang digunakan untuk melakukan klasterisasi atau pengelompokan data.
 
 Tujuan utama dari algoritma ini adalah untuk membagi himpunan data menjadi beberapa kelompok, yang disebut klaster, sehingga objek-objek dalam satu klaster memiliki kesamaan yang tinggi, sedangkan objek-objek antar klaster memiliki kesamaan yang rendah
 
@@ -304,7 +275,11 @@ for k in range(2, 10):
 ## Evaluation
 
 K-means clustering adalah salah satu algoritma klasterisasi yang populer dalam dunia machine learning dan analisis data. 
+
 Tujuannya adalah membagi himpunan data menjadi beberapa kelompok atau klaster berdasarkan kesamaan antar data, algoritma ini sangat sederhana namun efektif.
+
+Didalam evaluasi ini ada 8 cluster, dari cluster yang terkecil dengan score siluet 0.33 dan yang terbesar score siluet 0.79. 
+Cluster yang optimal ada di cluster 3 dengan score siluet 0.79
 
 ```bash
 kmeans = KMeans(n_clusters=k, n_init=10)  # Set the value of n_init explicitly
