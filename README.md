@@ -42,16 +42,16 @@ https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data/
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
 
-- Country       : Nama negara (float)
-- Child_mort    : Kematian anak dibawah usia 5 tahun per 1000 kelahiran hidup (float)
-- Exports       : Ekspor barang dan jasa per kapita. Diberikan sebagai %usia PDB per kapita (float)
-- Health        : Total pengeluaran kesehatan per kapita,diberikan sebagai %usia PDB per kapita (float)
-- Imports       : Impor barang dan jasa per kapita. Diberikan sebagai %usia PDB per kapita (float)
-- Income        : Pendapatan bersih per orang (int)
-- Inflation     : Pengukuran tingkat pertumbuhan tahunan Total PDB (float)
-- Life_expec    : Rata-rata lama hidup seorang anak yang baru lahir jika pola kematian saat ini ingin tetap sama (float)
-- Total_fer     : Jumlah anak yang akan dilahirkan oleh setiap wanita jika angka kesuburan usia saat ini tetap sama (float)
-- Gdpp          : PDB per kapita. Dihitung sebagai Total PDB dibagi dengan total populasi.(int)
+- Country       : Nama negara [Tipe Data:float]
+- Child_mort    : Kematian anak dibawah usia 5 tahun per 1000 kelahiran hidup [Tipe Data:float]
+- Exports       : Ekspor barang dan jasa per kapita. Diberikan sebagai %usia PDB per kapita [Tipe Data:float]
+- Health        : Total pengeluaran kesehatan per kapita,diberikan sebagai %usia PDB per kapita [Tipe Data:float]
+- Imports       : Impor barang dan jasa per kapita. Diberikan sebagai %usia PDB per kapita [Tipe Data:float)
+- Income        : Pendapatan bersih per orang [Tipe Data:int]
+- Inflation     : Pengukuran tingkat pertumbuhan tahunan Total PDB [Tipe Data:float]
+- Life_expec    : Rata-rata lama hidup seorang anak yang baru lahir jika pola kematian saat ini ingin tetap sama [Tipe Data:float]
+- Total_fer     : Jumlah anak yang akan dilahirkan oleh setiap wanita jika angka kesuburan usia saat ini tetap sama [Tipe Data:float]
+- Gdpp          : PDB per kapita. Dihitung sebagai Total PDB dibagi dengan total populasi.[Tipe Data:int]
 
 
 ## Data Preparation
