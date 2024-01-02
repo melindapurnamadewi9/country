@@ -227,6 +227,9 @@ Rumus
 
 ![jarak](https://github.com/melindapurnamadewi9/country/assets/148632928/3a19d268-95e1-495f-bedc-dc3fc59d8abf)
 
+![1_6IAppKZwEW5hzmkKLEo0Eg](https://github.com/melindapurnamadewi9/country/assets/148632928/56196e3f-24de-4daf-a580-f0c908ae979a)
+
+
 
 ```bash 
 n_clust = 5
