@@ -224,9 +224,8 @@ K-means merupakan salah satu algoritma yang bersifat unsupervised learning. K-Me
 K-Means Clustering adalah suatu metode penganalisaan data atau metode Data Mining yang melakukan proses pemodelan unssupervised learning dan menggunakan metode yang mengelompokan data berbagai partisi. K Means Clustering memiliki objective yaitu meminimalisasi object function yang telah di atur pada proses clasterisasi. Dengan cara minimalisasi variasi antar 1 cluster dengan maksimalisasi variasi dengan data di cluster lainnya.
 
 Rumus 
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/a55098a8-d21f-4b81-91eb-a14633ff9124)
 
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/bd53d030-be6f-42cb-8a83-59b18ccf0d3c)
+![jarak](https://github.com/melindapurnamadewi9/country/assets/148632928/3a19d268-95e1-495f-bedc-dc3fc59d8abf)
 
 
 ```bash 
