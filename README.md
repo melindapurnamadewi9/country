@@ -216,27 +216,6 @@ plt.show()
 ```
 ![image](https://github.com/melindapurnamadewi9/country/assets/148632928/7569f09a-5517-4dad-b0c7-705dfdc8f7e6)
 
-## Propocessing 
-
-```bash
-clusters = []
-for i in range(1, 11):
-    km = KMeans(n_clusters=i).fit(X)
-    clusters.append(km.inertia_)
-
-fig, ax = plt.subplots(figsize=(12, 8))
-sns.lineplot(x=list(range(1, 11)), y=clusters, ax=ax)
-ax.set_title('Mencari Elbow')
-ax.set_xlabel('Clusters')
-ax.set_ylabel('Inertia')
-
-ax.text(3, 140000, 'Possible elbow point', ha='center', va='center', bbox=dict(facecolor='red', edgecolor='black', boxstyle='round,pad=0.5'))
-ax.text(5, 80000, 'Possible elbow point', ha='center', va='center', bbox=dict(facecolor='red', edgecolor='black', boxstyle='round,pad=0.5'))
-plt.show()
-
-```
-![image](https://github.com/melindapurnamadewi9/country/assets/148632928/f10ce39b-7849-4cef-89f3-aaa446eee4fc)
-
 
 ## Modeling
 
