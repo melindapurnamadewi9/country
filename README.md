@@ -72,6 +72,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+from sklearn.preprocessing import StandardScaler
+
 ```
 Karena kita menggunakan google collab untuk itu kita menjalankanya, maka kita akan import files.
 
@@ -215,9 +219,9 @@ plt.show()
 
 ## Modeling
 
-K-means adalah algoritma dalam machine learning yang digunakan untuk melakukan klasterisasi atau pengelompokan data.
+K-means merupakan salah satu algoritma yang bersifat unsupervised learning. K-Means memiliki fungsi untuk mengelompokkan data kedalam data cluster. Algoritma ini dapat menerima data tanpa ada label kategori. K-Means Clustering Algoritma juga merupakan metode non-hierarchy. 
 
-Tujuan utama dari algoritma ini adalah untuk membagi himpunan data menjadi beberapa kelompok, yang disebut klaster, sehingga objek-objek dalam satu klaster memiliki kesamaan yang tinggi, sedangkan objek-objek antar klaster memiliki kesamaan yang rendah
+K-Means Clustering adalah suatu metode penganalisaan data atau metode Data Mining yang melakukan proses pemodelan unssupervised learning dan menggunakan metode yang mengelompokan data berbagai partisi. K Means Clustering memiliki objective yaitu meminimalisasi object function yang telah di atur pada proses clasterisasi. Dengan cara minimalisasi variasi antar 1 cluster dengan maksimalisasi variasi dengan data di cluster lainnya.
 
 Rumus 
 ![image](https://github.com/melindapurnamadewi9/country/assets/148632928/a55098a8-d21f-4b81-91eb-a14633ff9124)
@@ -285,7 +289,7 @@ for k in range(2, 10):
 
 ## Evaluation
 
-Didalam evaluasi ini ada 8 cluster, dari cluster yang terkecil dengan score siluet 0.33 dan yang terbesar score siluet 0.79. 
+Didalam Visualisasi hasil algoritma  8 cluster, dari cluster yang terkecil dengan score siluet 0.33 dan yang terbesar score siluet 0.79. 
 Cluster yang optimal ada di cluster 3 dengan score siluet 0.79
 
 ```bash
